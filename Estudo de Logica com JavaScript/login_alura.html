@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<script>
+
+    var loginCadastrado = "alura";
+    var senhaCadastrada = "alura321";
+    var verificacao = 0;
+
+while(verificacao < 3 )
+    {
+    var loginInformado = prompt("Informe seu login");
+    var senhaInformada = prompt("Informe sua senha");
+
+    
+    
+
+        
+    if( loginCadastrado == loginInformado && senhaCadastrada == senhaInformada ) 
+    {
+
+        alert("Bem-vindo ao sistema " + loginInformado);
+    } 
+
+    
+
+    
+    else {
+
+        alert("Login inválido. Tente novamente");
+        verificacao = verificacao + 1;
+    }
+}
+
+</script>
