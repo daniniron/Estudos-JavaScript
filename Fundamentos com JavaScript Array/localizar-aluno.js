@@ -15,6 +15,8 @@ const exibeNomeNota = (nomeDoAluno) => {
         return "aluno não cadastrado"
     }
 
+//includes -> booleano
+//indexOf -> 3 ( local na memoria)
 
 }
 
