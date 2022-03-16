@@ -32,7 +32,7 @@
 
 const altura = 5;
 const comprimento = 7;
-const  forma = "quadrado";
+const  forma = "Triangulo";
 let area ;
 
 
