@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<script >
+
+	function pulalinha() 
+	{
+
+		document.write("<br>");
+
+	}
+
+	function mostra(totalGeracao)
+	{
+		document.write("total Geracao é:" + totalGeracao);
+		pulalinha();
+	}
+
+	var anos = 1528;
+	var ano  = 2022;
+	var geracao = 28;
+
+	var totalGeracao = Math.round((ano-anos)/geracao);
+
+	mostra(totalGeracao)
+
+</script>

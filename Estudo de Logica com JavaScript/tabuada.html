@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    
+var x = parseInt(prompt("numero quer multiplicar"));
+
+    for(var multiplicador = 1; multiplicador <= 10; multiplicador++)
+    {
+        console.log(multiplicador);
+        mostra(x * multiplicador);
+    }
+    mostra("fim");
+
+</script>

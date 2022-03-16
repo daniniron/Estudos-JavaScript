@@ -1,0 +1,57 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function copa (anoCopa1, ano)
+    {
+        
+
+        while(anoCopa1 <= ano)
+            { 
+            
+                if(anoCopa1 == 1942 || anoCopa1 == 1946 ) 
+                    {
+
+                        mostra("não teve copa em :" + anoCopa1);
+
+                    }
+                else
+                    {
+
+                        mostra("Teve copa em :" + anoCopa1);
+
+                    }
+
+             var anoCopa1 = anoCopa1 + 4;
+           }
+
+            
+
+       
+    }
+
+    function ano()
+    {
+        var currentTime = new Date();
+        var ano = currentTime.getFullYear();
+       
+        return ano
+
+    }
+
+    var anoCopa = 1930; 
+
+    copa(anoCopa, ano());
+
+
+    
+</script>
+
